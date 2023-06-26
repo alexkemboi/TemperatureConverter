@@ -4,7 +4,6 @@ C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\bin\Debu
 C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\bin\Debug\net6.0-windows\TemperatureConverter.dll
 C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\bin\Debug\net6.0-windows\TemperatureConverter.pdb
 C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\net6.0-windows\TemperatureConverter.csproj.AssemblyReference.cache
-C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\net6.0-windows\TemperatureConverter.Form1.resources
 C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\net6.0-windows\TemperatureConverter.csproj.GenerateResource.cache
 C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\net6.0-windows\TemperatureConverter.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\net6.0-windows\TemperatureConverter.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debu
 C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\net6.0-windows\TemperatureConverter.pdb
 C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\net6.0-windows\TemperatureConverter.genruntimeconfig.cache
 C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\net6.0-windows\ref\TemperatureConverter.dll
+C:\Users\akemboi\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\net6.0-windows\TemperatureConverter.temperatureConverter.resources

@@ -1,6 +1,6 @@
 ﻿namespace TemperatureConverter
 {
-    partial class Form1
+    partial class temperatureConverter
     {
         /// <summary>
         ///  Required designer variable.
@@ -33,14 +33,15 @@
             label3 = new Label();
             celciusTextBox = new TextBox();
             farenHeitTextBox = new TextBox();
-            button1 = new Button();
+            convertTemperature = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(292, 81);
+            label1.ForeColor = SystemColors.Highlight;
+            label1.Location = new Point(219, 68);
             label1.Name = "label1";
             label1.Size = new Size(280, 32);
             label1.TabIndex = 0;
@@ -50,59 +51,65 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(230, 135);
+            label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(219, 127);
             label2.Name = "label2";
-            label2.Size = new Size(45, 15);
+            label2.Size = new Size(73, 25);
             label2.TabIndex = 1;
             label2.Text = "Celcius";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(230, 267);
+            label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(219, 259);
             label3.Name = "label3";
-            label3.Size = new Size(56, 15);
+            label3.Size = new Size(94, 25);
             label3.TabIndex = 2;
             label3.Text = "Farenheit";
             // 
             // celciusTextBox
             // 
+            celciusTextBox.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             celciusTextBox.Location = new Point(319, 127);
             celciusTextBox.Name = "celciusTextBox";
-            celciusTextBox.Size = new Size(162, 23);
+            celciusTextBox.Size = new Size(162, 29);
             celciusTextBox.TabIndex = 3;
             // 
             // farenHeitTextBox
             // 
+            farenHeitTextBox.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             farenHeitTextBox.Location = new Point(319, 259);
             farenHeitTextBox.Name = "farenHeitTextBox";
-            farenHeitTextBox.Size = new Size(162, 23);
+            farenHeitTextBox.Size = new Size(162, 29);
             farenHeitTextBox.TabIndex = 4;
             // 
-            // button1
+            // convertTemperature
             // 
-            button1.BackColor = SystemColors.ActiveCaptionText;
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(319, 182);
-            button1.Name = "button1";
-            button1.Size = new Size(162, 47);
-            button1.TabIndex = 5;
-            button1.Text = "Convert";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            convertTemperature.BackColor = SystemColors.Highlight;
+            convertTemperature.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            convertTemperature.ForeColor = SystemColors.ControlLightLight;
+            convertTemperature.Location = new Point(319, 182);
+            convertTemperature.Name = "convertTemperature";
+            convertTemperature.Size = new Size(162, 47);
+            convertTemperature.TabIndex = 5;
+            convertTemperature.Text = "Convert";
+            convertTemperature.UseVisualStyleBackColor = false;
+            convertTemperature.Click += button1_Click;
             // 
-            // Form1
+            // temperatureConverter
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightGreen;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            Controls.Add(convertTemperature);
             Controls.Add(farenHeitTextBox);
             Controls.Add(celciusTextBox);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form1";
+            Name = "temperatureConverter";
             Text = "Temperature Converter";
             ResumeLayout(false);
             PerformLayout();
@@ -115,6 +122,6 @@
         private Label label3;
         private TextBox celciusTextBox;
         private TextBox farenHeitTextBox;
-        private Button button1;
+        private Button convertTemperature;
     }
 }

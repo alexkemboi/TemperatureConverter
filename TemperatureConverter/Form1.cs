@@ -1,8 +1,8 @@
 namespace TemperatureConverter
 {
-    public partial class Form1 : Form
+    public partial class temperatureConverter : Form
     {
-        public Form1()
+        public temperatureConverter()
         {
             InitializeComponent();
         }
